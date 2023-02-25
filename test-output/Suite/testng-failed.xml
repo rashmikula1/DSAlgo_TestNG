@@ -6,13 +6,11 @@
       <class name="dsalgo.testcases.TestCase">
         <methods>
           <include name="setup"/>
-          <include name="QueueArray"/>
+          <include name="ArrayfindnoPracticeq"/>
+          <include name="Linkedlist"/>
+          <include name="tree"/>
           <include name="teardown"/>
-          <include name="square"/>
-          <include name="QueuePhython"/>
-          <include name="QueueOp"/>
-          <include name="MaxCons"/>
-          <include name="QueueCollection"/>
+          <include name="stack"/>
         </methods>
       </class> <!-- dsalgo.testcases.TestCase -->
     </classes>

@@ -19,15 +19,25 @@ import dsalgo.base.BaseClass;
 import dsalgo.pageobjects.Array;
 import dsalgo.pageobjects.DataStructure;
 import dsalgo.pageobjects.GetStarted;
+import dsalgo.pageobjects.Graph;
+import dsalgo.pageobjects.LinkedList;
 import dsalgo.pageobjects.Queue;
+import dsalgo.pageobjects.Stack;
+import dsalgo.pageobjects.Tree;
 import dsalgo.pageobjects.signin;
 
 
 public class TestCase extends BaseClass {
-	
+
 	GetStarted gs;
-	signin sign;
-	
+	signin sign =new signin();
+	Graph gr= new Graph();
+	Array ar=new Array();
+	Queue qu= new Queue();
+	LinkedList ll= new LinkedList();
+	Stack st=new Stack();
+	Tree tr= new Tree();
+	DataStructure dr=new DataStructure();
 	@BeforeMethod
 	public void setup()
 	{
@@ -40,7 +50,7 @@ public class TestCase extends BaseClass {
 	{
 		driver.quit();
 	}
-	
+
 	@Test
 	public void selarray() throws InterruptedException, IOException
 	{
@@ -49,162 +59,223 @@ public class TestCase extends BaseClass {
 		gs.selctany();
 		gs.validateregister();
 		gs.validatesignin();
-		
-		
+
+
 	}
-	
+
 	@Test
 	public void home() throws InterruptedException
 	{
-				
+
 		try {
-	
-	    gs.register();
-		
-		
+
+			gs.register();
+
+
 		}
 		catch(Exception e) {
 			System.out.println("the exception is:"+e);
-			
+
 		}
-						
+
 	}
 	@Test
 	public void vaild() throws InterruptedException
 	{
 		sign.signValid();
-		
+
 	}
 	@Test
 	public void invalid() throws InterruptedException, IOException
-	
+
 	{ 
-		sign=new signin();
+
 		sign.signInValid();
 		sign.verifylogin();
-			
-		}
+
+	}
 	@Test
 	public void signout() throws InterruptedException
 	{
-		sign=new signin();
+
 		sign.signout();
 	}
-	
+
 	@Test
 	public void validateRegister() throws IOException, InterruptedException
 	{
 		gs.clickRegister();
 	}
-	
+
 	@Test
 	public void validateLoginFromExcel() throws IOException, InterruptedException
 	{
-		sign=new signin();
+
 		sign.signInputFromExcel();
 	}
-	
+
 	@Test
 	public void datastructure() throws Exception
 	{
-		sign=new signin();
+
 		sign.signValid();
-		DataStructure dr=new DataStructure();
+		
 		dr.datastructureperform();
 	}
 	
 	@Test
+	public void datastructurePracticeQ() throws InterruptedException
+	{
+		sign.signValid();
+		dr.PracticeQ();
+	}
+
+	@Test
 	public void array() throws Exception
 	{
-		sign=new signin();
-		
+
+
 		sign.signValid();
-		Array ar=new Array();
+
 		ar.Arraysel();
-		//ar.ArrayPhython();
+
 		ar.performArray();
-		
+
 	}
-	
-	
-	@Test
-	public void arrayApplication() throws Exception
-	{
-		sign=new signin();
-		sign.signValid();
-		Array ar=new Array();
-		ar.Arraysel();
-		//ar.Arrayapplication();;
-		ar.performArray();
-	}
+
+
 	@Test
 	public void ArrayPracticeQ() throws InterruptedException, IOException
 	{
-		sign=new signin();
-		sign.signValid();
-		Array ar=new Array();
-		ar.Arraysel();
-		//ar.ArrayPhython();
-		ar.practiceQSearchArray();
 		
+		sign.signValid();
+		ar.Arraysel();
+     	ar.practiceQSearchArray();
+
 	}
 	@Test
 	public void ArrayMaxConsPracticeQ() throws InterruptedException, IOException
 	{
-		sign=new signin();
+
 		sign.signValid();
-		Array ar=new Array();
+
 		ar.Arraysel();
 		//ar.ArrayPhython();
 		ar.practiceQMaxCons();
-		
+
 	}
 	@Test
 	public void ArrayfindnoPracticeq() throws InterruptedException, IOException
 	{
-		sign=new signin();
+
 		sign.signValid();
-		Array ar=new Array();
+
 		ar.Arraysel();
-		//ar.ArrayPhython();
+
 		ar.findnum();
-		
+
 	}
 	@Test
 	public void ArraysquarePracticeQ() throws InterruptedException, IOException
 	{
-		sign=new signin();
+
 		sign.signValid();
-		Array ar=new Array();
+
 		ar.Arraysel();
-		//ar.ArrayPhython();
+
 		ar.square();
-		
+
 	}
-	
-	
-	
+
+
+
 	@Test
 	public void Queue() throws Exception
 	{
-		sign=new signin();
-		sign.signValid();
-		Queue qu= new Queue();
-		qu.Quesel();
-		//qu.QueuePhython();
-		qu.performQueue();
 		
+		sign.signValid();
+		
+		qu.Quesel();
+		qu.performQueue();
+
 	}
 	@Test
-	public void QueuepracticeQ() throws InterruptedException
+	public void QueuePracticeQ() throws InterruptedException
 	{
-		sign=new signin();
+		
 		sign.signValid();
-		Queue qu= new Queue();
+		
 		qu.Quesel();
 		qu.practiceQ();
 	}
+
+
+	@Test
+	public void Linkedlist() throws InterruptedException, IOException
+	{
+
+		sign.signValid();
+		
+		ll.LList1();
+		
+
+	}
 	
+	@Test
+	public void LinkedlistPracticeQ() throws InterruptedException
+	{
+		sign.signValid();
+		ll.PracticeQ();
+	}
+	
+	@Test
+	public void stack() throws InterruptedException, IOException
+	{
+
+		
+		sign.signValid();
+		
+		st.Stack1();
+		
+
+
+	}
+	@Test
+	public void stackPracticeQ() throws InterruptedException
+	{
+		sign.signValid();
+		st.PracticeQ();
+		
+	}
+
+	@Test
+	public void tree() throws InterruptedException, IOException
+	{
+
+		sign.signValid();
+		
+		tr.AccessTree();
+
+	}
+	@Test
+	public void treePracticeQ() throws InterruptedException
+	{
+		sign.signValid();
+		tr.PracticeQ();
+	}
+	@Test
+	public void graph() throws InterruptedException, IOException
+	{
+		sign.signValid();
+		gr.AccessGraph();
+	}
+	
+	@Test
+	public void graphPRacticeQ() throws InterruptedException
+	{
+		sign.signValid();
+		gr.practiceQ();
+	}
 	
 
 }

@@ -43,7 +43,11 @@ public class DataStructure extends BaseClass {
 		}
 		
 	}
-	
+	public void PracticeQ() {
+		driver.findElement(DSgetstarted).click();
+		driver.findElement(DStimecomplex).click();
+		driver.findElement(PracticeQ1).click();
+	}
 
 }
 

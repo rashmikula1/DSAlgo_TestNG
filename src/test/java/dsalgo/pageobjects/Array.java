@@ -13,14 +13,9 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import dsalgo.base.BaseClass;
 import dsalgo.utility.ExcelReader;
 
-
-
 public class Array extends BaseClass{
 
-
-	WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
-
-	By dropdown= By.xpath("//a[@class='nav-link dropdown-toggle']");
+    By dropdown= By.xpath("//a[@class='nav-link dropdown-toggle']");
 	By array=By.xpath("//a[text()='Arrays']");
 	By arrayphython= By.xpath("//a[text()='Arrays in Python']");
 	By tryhere= By.xpath("//a[text()='Try here>>>']");
@@ -76,7 +71,7 @@ public class Array extends BaseClass{
 			By Topic= By.xpath("//body/div/ul[" + j + "]/a[@class='list-group-item']");
 			driver.findElement(Topic).click();
 
-			System.out.println("Topic is: "+ Topic);
+			//System.out.println("Topic is: "+ Topic);
 
 			for(int i=0;i<l;i++)
 			{

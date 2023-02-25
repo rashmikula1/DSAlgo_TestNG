@@ -14,41 +14,7 @@ import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
 public class ExcelReader {
 	
-	public static void main(String[] args) throws Exception {
-		LoginData();
-		
-	}
 	
-	
-	
-	public static String getcellData() throws Exception {
-        
-		String s=null;
-		String projectDir=System.getProperty("user.dir");
-		String path=projectDir+"/src/test/resources/TestData/TestData.xlsx";
-		File ExcelFile= new File(path);
-		FileInputStream FIS= new FileInputStream(ExcelFile);
-		XSSFWorkbook workbook= new XSSFWorkbook(FIS);
-		XSSFSheet sheet=workbook.getSheet("Sheet1");
-		Iterator<Row> row=sheet.rowIterator();
-		
-		while(row.hasNext()){
-			Row currentrow=row.next();
-			Iterator<Cell> cell= currentrow.cellIterator();
-			while(cell.hasNext()) {
-				Cell currentcell=cell.next();
-				
-				 s= currentcell.getStringCellValue();
-				System.out.println(currentcell.getStringCellValue());
-				
-			}
-			
-			System.out.println();
-			}
-		
- return s;
-}
-
 	public static String[][] getData() throws IOException
 	{
 		String projectDir=System.getProperty("user.dir");

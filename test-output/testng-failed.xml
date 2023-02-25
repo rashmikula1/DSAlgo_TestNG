@@ -6,10 +6,8 @@
       <class name="dsalgo.testcases.TestCase">
         <methods>
           <include name="setup"/>
-          <include name="Arraysquare"/>
-          <include name="ArrayMaxCons"/>
           <include name="teardown"/>
-          <include name="Arrayfindno"/>
+          <include name="stackPracticeQ"/>
         </methods>
       </class> <!-- dsalgo.testcases.TestCase -->
     </classes>

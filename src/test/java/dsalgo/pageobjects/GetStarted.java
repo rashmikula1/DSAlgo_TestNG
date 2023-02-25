@@ -35,8 +35,7 @@ public class GetStarted extends BaseClass {
 	By selitem= By.xpath("//div[@class='dropdown-menu show']/a");
 
 
-
-	public void getstart()
+    public void getstart()
 	{
 		driver.findElement(gtStarted).click();
 

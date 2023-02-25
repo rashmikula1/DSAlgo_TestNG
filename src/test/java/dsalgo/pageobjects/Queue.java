@@ -1,5 +1,7 @@
 package dsalgo.pageobjects;
 import org.openqa.selenium.By;
+import org.testng.Reporter;
+
 import dsalgo.base.BaseClass;
 import dsalgo.utility.ExcelReader;
 
@@ -22,7 +24,7 @@ public class Queue extends BaseClass {
 	{
 		driver.findElement(dropdown).click();;
 		driver.findElement(queue).click();;
-		
+		Reporter.log("Queue is selected");
 	}
 /*	public void QueuePhython() throws InterruptedException
 	{
@@ -59,7 +61,7 @@ public class Queue extends BaseClass {
 		{
 			By Topic= By.xpath("//body/div/ul[" + j + "]/a[@class='list-group-item']");
 			driver.findElement(Topic).click();
-			System.out.println("Topic is: "+ Topic);
+			//System.out.println("Topic is: "+ Topic);
 
 		for(int i=0;i<=2;i++)
 		{
