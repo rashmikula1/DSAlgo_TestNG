@@ -20,6 +20,7 @@ import dsalgo.pageobjects.Array;
 import dsalgo.pageobjects.DataStructure;
 import dsalgo.pageobjects.GetStarted;
 import dsalgo.pageobjects.Graph;
+import dsalgo.pageobjects.Home;
 import dsalgo.pageobjects.LinkedList;
 import dsalgo.pageobjects.Queue;
 import dsalgo.pageobjects.Register;
@@ -30,7 +31,8 @@ import dsalgo.pageobjects.signin;
 
 public class TestCase extends BaseClass {
 
-	GetStarted gs;
+	GetStarted gs= new GetStarted();
+	Home hm= new Home();
 	signin sign =new signin();
 	Register rj=new Register();
 	Graph gr= new Graph();
@@ -44,7 +46,7 @@ public class TestCase extends BaseClass {
 	public void setup()
 	{
 		launch();
-		gs=new GetStarted();
+		
 		gs.getstart();
 	}
 	@AfterMethod
@@ -56,11 +58,11 @@ public class TestCase extends BaseClass {
 	@Test
 	public void selarray() throws InterruptedException, IOException
 	{
-		gs.selectarray();
-		gs.clickdatastructure();
-		gs.selctany();
-		gs.validateregister();
-		gs.validatesignin();
+		hm.selectarray();
+		hm.clickdatastructure();
+		hm.selctany();
+		hm.validateregister();
+		hm.validatesignin();
 
 
 	}

@@ -701,3 +701,52 @@
 [INFO ] 2023-02-26 13:55:04.732 [main] GetStarted - You are logged in
 [INFO ] 2023-02-26 13:55:09.831 [main] GetStarted - You are logged in
 [ERROR] 2023-02-26 13:55:21.733 [main] Register - password_mismatch:The two password fields didn’t match.
+[INFO ] 2023-02-26 15:31:05.408 [main] GetStarted - The error You are not logged in
+[INFO ] 2023-02-26 15:34:28.700 [main] GetStarted - You are logged in
+[INFO ] 2023-02-26 15:34:39.779 [main] GetStarted - Invalid Username and Password
+[INFO ] 2023-02-26 15:36:08.311 [main] GetStarted - You are logged in
+[INFO ] 2023-02-26 15:36:15.337 [main] GetStarted - You are logged in
+[INFO ] 2023-02-26 15:36:21.291 [main] GetStarted - You are logged in
+[INFO ] 2023-02-26 15:36:26.909 [main] GetStarted - You are logged in
+[INFO ] 2023-02-26 15:36:32.896 [main] GetStarted - You are logged in
+[INFO ] 2023-02-26 15:36:46.813 [main] GetStarted - You are logged in
+[INFO ] 2023-02-26 15:36:50.236 [main] GetStarted - You are logged in
+[INFO ] 2023-02-26 15:36:58.155 [main] GetStarted - You are logged in
+[INFO ] 2023-02-26 15:37:02.802 [main] GetStarted - You are logged in
+[INFO ] 2023-02-26 15:37:11.204 [main] GetStarted - You are logged in
+[INFO ] 2023-02-26 15:37:15.709 [main] GetStarted - You are logged in
+[INFO ] 2023-02-26 15:37:18.980 [main] GetStarted - You are logged in
+[INFO ] 2023-02-26 15:37:23.404 [main] GetStarted - You are logged in
+[INFO ] 2023-02-26 15:37:28.212 [main] Register - password_mismatch:The two password fields didn’t match.
+[INFO ] 2023-02-26 15:37:33.477 [main] GetStarted - Invalid Username and Password
+[INFO ] 2023-02-26 15:37:36.459 [main] GetStarted - The error You are not logged in
+[INFO ] 2023-02-26 15:37:41.444 [main] GetStarted - Logged out successfully
+[INFO ] 2023-02-26 15:37:44.916 [main] GetStarted - You are logged in
+[INFO ] 2023-02-26 15:37:51.854 [main] GetStarted - You are logged in
+[INFO ] 2023-02-26 15:37:55.252 [main] GetStarted - You are logged in
+[INFO ] 2023-02-26 15:38:16.729 [main] GetStarted - You are logged in
+[INFO ] 2023-02-26 15:38:20.112 [main] GetStarted - You are logged in
+[ERROR] 2023-02-26 15:38:32.204 [main] Register - password_mismatch:The two password fields didn’t match.
+[INFO ] 2023-02-26 15:47:41.148 [main] GetStarted - You are logged in
+[INFO ] 2023-02-26 15:47:49.061 [main] GetStarted - You are logged in
+[INFO ] 2023-02-26 15:47:55.218 [main] GetStarted - You are logged in
+[INFO ] 2023-02-26 15:48:03.356 [main] GetStarted - You are logged in
+[INFO ] 2023-02-26 15:48:08.990 [main] GetStarted - You are logged in
+[INFO ] 2023-02-26 15:48:21.546 [main] GetStarted - You are logged in
+[INFO ] 2023-02-26 15:48:24.835 [main] GetStarted - You are logged in
+[INFO ] 2023-02-26 15:48:34.225 [main] GetStarted - You are logged in
+[INFO ] 2023-02-26 15:48:38.523 [main] GetStarted - You are logged in
+[INFO ] 2023-02-26 15:48:47.185 [main] GetStarted - You are logged in
+[INFO ] 2023-02-26 15:48:51.694 [main] GetStarted - You are logged in
+[INFO ] 2023-02-26 15:48:54.998 [main] GetStarted - You are logged in
+[INFO ] 2023-02-26 15:48:59.454 [main] GetStarted - You are logged in
+[INFO ] 2023-02-26 15:49:02.775 [main] Register - password_mismatch:The two password fields didn’t match.
+[INFO ] 2023-02-26 15:49:06.444 [main] GetStarted - Invalid Username and Password
+[INFO ] 2023-02-26 15:49:09.353 [main] Home - The error You are not logged in
+[INFO ] 2023-02-26 15:49:14.143 [main] GetStarted - Logged out successfully
+[INFO ] 2023-02-26 15:49:17.189 [main] GetStarted - You are logged in
+[INFO ] 2023-02-26 15:49:24.243 [main] GetStarted - You are logged in
+[INFO ] 2023-02-26 15:49:27.568 [main] GetStarted - You are logged in
+[INFO ] 2023-02-26 15:49:47.199 [main] GetStarted - You are logged in
+[INFO ] 2023-02-26 15:49:50.492 [main] GetStarted - You are logged in
+[ERROR] 2023-02-26 15:50:00.802 [main] Register - password_mismatch:The two password fields didn’t match.

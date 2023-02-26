@@ -16,14 +16,14 @@ public class signin extends BaseClass {
 	By alert= By.xpath("//div[@class='alert alert-primary']");
 	By signout= By.xpath("//a[text()='Sign out']");
 	private static Logger log= LogManager.getLogger(GetStarted.class);
+	
 	public void verifylogin() throws IOException, InterruptedException
 	{
 		driver.findElement(login).click();;
-		Thread.sleep(1000);
-		Screenshot.takesScreenshot("Login");
+		
 		driver.findElement(username).sendKeys(prop.getProperty("Username"));
 		driver.findElement(login).click();;
-		Thread.sleep(1000);
+		
 		Screenshot.takesScreenshot("Login1");
 
 	}
@@ -33,7 +33,7 @@ public class signin extends BaseClass {
 		driver.findElement(signin).click();;
 		driver.findElement(username).sendKeys(prop.getProperty("Username"));
 		driver.findElement(password).sendKeys(prop.getProperty("Password"));
-		Thread.sleep(1000);
+		
 		driver.findElement(login).click();;
 		log.info(driver.findElement(alert).getText());
 
@@ -54,7 +54,7 @@ public class signin extends BaseClass {
 		driver.findElement(signin).click();;
 		driver.findElement(username).sendKeys(prop.getProperty("Username"));
 		driver.findElement(password).sendKeys(prop.getProperty("Password"));
-		Thread.sleep(1000);
+		
 		driver.findElement(login).click();;
 		driver.findElement(signout).click();;
 		log.info(driver.findElement(alert).getText());
