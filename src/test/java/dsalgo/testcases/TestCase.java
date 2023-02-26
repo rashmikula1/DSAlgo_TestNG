@@ -22,6 +22,7 @@ import dsalgo.pageobjects.GetStarted;
 import dsalgo.pageobjects.Graph;
 import dsalgo.pageobjects.LinkedList;
 import dsalgo.pageobjects.Queue;
+import dsalgo.pageobjects.Register;
 import dsalgo.pageobjects.Stack;
 import dsalgo.pageobjects.Tree;
 import dsalgo.pageobjects.signin;
@@ -31,6 +32,7 @@ public class TestCase extends BaseClass {
 
 	GetStarted gs;
 	signin sign =new signin();
+	Register rj=new Register();
 	Graph gr= new Graph();
 	Array ar=new Array();
 	Queue qu= new Queue();
@@ -69,12 +71,12 @@ public class TestCase extends BaseClass {
 
 		try {
 
-			gs.register();
+			rj.register();
 
 
 		}
 		catch(Exception e) {
-			System.out.println("the exception is:"+e);
+			System.out.println("The exception is:"+e);
 
 		}
 
@@ -104,7 +106,7 @@ public class TestCase extends BaseClass {
 	@Test
 	public void validateRegister() throws IOException, InterruptedException
 	{
-		gs.clickRegister();
+		rj.clickRegister();
 	}
 
 	@Test

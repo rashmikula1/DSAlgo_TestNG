@@ -26,7 +26,7 @@ public class DataStructure extends BaseClass {
 		{
 			driver.findElement(tryhere).click();
 			
-			System.out.println(code);
+			//System.out.println(code);
 
 			driver.findElement(TextboxInput).sendKeys(code[i]);
 			driver.findElement(DSRun).click();

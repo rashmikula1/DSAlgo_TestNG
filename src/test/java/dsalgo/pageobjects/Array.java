@@ -77,7 +77,7 @@ public class Array extends BaseClass{
 			{
 				driver.findElement(tryhere).click();
 
-				System.out.println(code);
+				//System.out.println(code);
 
 				driver.findElement(input).sendKeys(code[i]);
 				driver.findElement(run).click();

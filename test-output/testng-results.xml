@@ -8,302 +8,302 @@
       <![CDATA[Queue is selected]]>
     </line>
   </reporter-output>
-  <suite started-at="2023-02-24T21:16:14 EST" name="Suite" finished-at="2023-02-24T21:19:44 EST" duration-ms="210545">
+  <suite started-at="2023-02-26T13:51:58 EST" name="Suite" finished-at="2023-02-26T13:55:22 EST" duration-ms="203889">
     <groups>
     </groups>
-    <test started-at="2023-02-24T21:16:14 EST" name="TestExec01" finished-at="2023-02-24T21:19:44 EST" duration-ms="210545">
+    <test started-at="2023-02-26T13:51:58 EST" name="TestExec01" finished-at="2023-02-26T13:55:22 EST" duration-ms="203889">
       <class name="dsalgo.testcases.TestCase">
-        <test-method is-config="true" signature="setup()[pri:0, instance:dsalgo.testcases.TestCase@6c6357f9]" started-at="2023-02-24T21:16:14 EST" name="setup" finished-at="2023-02-24T21:16:17 EST" duration-ms="2842" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:dsalgo.testcases.TestCase@591e58fa]" started-at="2023-02-26T13:51:58 EST" name="setup" finished-at="2023-02-26T13:52:02 EST" duration-ms="3818" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="ArrayMaxConsPracticeQ()[pri:0, instance:dsalgo.testcases.TestCase@6c6357f9]" started-at="2023-02-24T21:16:17 EST" name="ArrayMaxConsPracticeQ" finished-at="2023-02-24T21:16:25 EST" duration-ms="8596" status="PASS">
+        <test-method signature="ArrayMaxConsPracticeQ()[pri:0, instance:dsalgo.testcases.TestCase@591e58fa]" started-at="2023-02-26T13:52:02 EST" name="ArrayMaxConsPracticeQ" finished-at="2023-02-26T13:52:08 EST" duration-ms="6375" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ArrayMaxConsPracticeQ -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:dsalgo.testcases.TestCase@6c6357f9]" started-at="2023-02-24T21:16:25 EST" name="teardown" finished-at="2023-02-24T21:16:26 EST" duration-ms="391" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:dsalgo.testcases.TestCase@591e58fa]" started-at="2023-02-26T13:52:08 EST" name="teardown" finished-at="2023-02-26T13:52:09 EST" duration-ms="476" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:dsalgo.testcases.TestCase@6c6357f9]" started-at="2023-02-24T21:16:26 EST" name="setup" finished-at="2023-02-24T21:16:28 EST" duration-ms="2338" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:dsalgo.testcases.TestCase@591e58fa]" started-at="2023-02-26T13:52:09 EST" name="setup" finished-at="2023-02-26T13:52:11 EST" duration-ms="2305" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="ArrayPracticeQ()[pri:0, instance:dsalgo.testcases.TestCase@6c6357f9]" started-at="2023-02-24T21:16:28 EST" name="ArrayPracticeQ" finished-at="2023-02-24T21:16:35 EST" duration-ms="7343" status="PASS">
+        <test-method signature="ArrayPracticeQ()[pri:0, instance:dsalgo.testcases.TestCase@591e58fa]" started-at="2023-02-26T13:52:11 EST" name="ArrayPracticeQ" finished-at="2023-02-26T13:52:17 EST" duration-ms="5548" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ArrayPracticeQ -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:dsalgo.testcases.TestCase@6c6357f9]" started-at="2023-02-24T21:16:35 EST" name="teardown" finished-at="2023-02-24T21:16:36 EST" duration-ms="306" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:dsalgo.testcases.TestCase@591e58fa]" started-at="2023-02-26T13:52:17 EST" name="teardown" finished-at="2023-02-26T13:52:17 EST" duration-ms="472" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:dsalgo.testcases.TestCase@6c6357f9]" started-at="2023-02-24T21:16:36 EST" name="setup" finished-at="2023-02-24T21:16:38 EST" duration-ms="1949" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:dsalgo.testcases.TestCase@591e58fa]" started-at="2023-02-26T13:52:17 EST" name="setup" finished-at="2023-02-26T13:52:23 EST" duration-ms="6277" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="ArrayfindnoPracticeq()[pri:0, instance:dsalgo.testcases.TestCase@6c6357f9]" started-at="2023-02-24T21:16:38 EST" name="ArrayfindnoPracticeq" finished-at="2023-02-24T21:16:44 EST" duration-ms="6441" status="PASS">
+        <test-method signature="ArrayfindnoPracticeq()[pri:0, instance:dsalgo.testcases.TestCase@591e58fa]" started-at="2023-02-26T13:52:23 EST" name="ArrayfindnoPracticeq" finished-at="2023-02-26T13:52:28 EST" duration-ms="4768" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ArrayfindnoPracticeq -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:dsalgo.testcases.TestCase@6c6357f9]" started-at="2023-02-24T21:16:44 EST" name="teardown" finished-at="2023-02-24T21:16:44 EST" duration-ms="309" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:dsalgo.testcases.TestCase@591e58fa]" started-at="2023-02-26T13:52:28 EST" name="teardown" finished-at="2023-02-26T13:52:29 EST" duration-ms="394" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:dsalgo.testcases.TestCase@6c6357f9]" started-at="2023-02-24T21:16:44 EST" name="setup" finished-at="2023-02-24T21:16:47 EST" duration-ms="2131" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:dsalgo.testcases.TestCase@591e58fa]" started-at="2023-02-26T13:52:29 EST" name="setup" finished-at="2023-02-26T13:52:31 EST" duration-ms="2144" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="ArraysquarePracticeQ()[pri:0, instance:dsalgo.testcases.TestCase@6c6357f9]" started-at="2023-02-24T21:16:47 EST" name="ArraysquarePracticeQ" finished-at="2023-02-24T21:16:53 EST" duration-ms="6906" status="PASS">
+        <test-method signature="ArraysquarePracticeQ()[pri:0, instance:dsalgo.testcases.TestCase@591e58fa]" started-at="2023-02-26T13:52:31 EST" name="ArraysquarePracticeQ" finished-at="2023-02-26T13:52:36 EST" duration-ms="5111" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ArraysquarePracticeQ -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:dsalgo.testcases.TestCase@6c6357f9]" started-at="2023-02-24T21:16:53 EST" name="teardown" finished-at="2023-02-24T21:16:54 EST" duration-ms="314" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:dsalgo.testcases.TestCase@591e58fa]" started-at="2023-02-26T13:52:36 EST" name="teardown" finished-at="2023-02-26T13:52:36 EST" duration-ms="445" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:dsalgo.testcases.TestCase@6c6357f9]" started-at="2023-02-24T21:16:54 EST" name="setup" finished-at="2023-02-24T21:16:58 EST" duration-ms="4062" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:dsalgo.testcases.TestCase@591e58fa]" started-at="2023-02-26T13:52:36 EST" name="setup" finished-at="2023-02-26T13:52:39 EST" duration-ms="3119" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="Linkedlist()[pri:0, instance:dsalgo.testcases.TestCase@6c6357f9]" started-at="2023-02-24T21:16:58 EST" name="Linkedlist" finished-at="2023-02-24T21:17:13 EST" duration-ms="14986" status="PASS">
+        <test-method signature="Linkedlist()[pri:0, instance:dsalgo.testcases.TestCase@591e58fa]" started-at="2023-02-26T13:52:39 EST" name="Linkedlist" finished-at="2023-02-26T13:52:52 EST" duration-ms="12845" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Linkedlist -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:dsalgo.testcases.TestCase@6c6357f9]" started-at="2023-02-24T21:17:13 EST" name="teardown" finished-at="2023-02-24T21:17:13 EST" duration-ms="294" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:dsalgo.testcases.TestCase@591e58fa]" started-at="2023-02-26T13:52:52 EST" name="teardown" finished-at="2023-02-26T13:52:53 EST" duration-ms="491" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:dsalgo.testcases.TestCase@6c6357f9]" started-at="2023-02-24T21:17:13 EST" name="setup" finished-at="2023-02-24T21:17:15 EST" duration-ms="1941" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:dsalgo.testcases.TestCase@591e58fa]" started-at="2023-02-26T13:52:53 EST" name="setup" finished-at="2023-02-26T13:52:55 EST" duration-ms="2032" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="LinkedlistPracticeQ()[pri:0, instance:dsalgo.testcases.TestCase@6c6357f9]" started-at="2023-02-24T21:17:15 EST" name="LinkedlistPracticeQ" finished-at="2023-02-24T21:17:18 EST" duration-ms="2629" status="PASS">
+        <test-method signature="LinkedlistPracticeQ()[pri:0, instance:dsalgo.testcases.TestCase@591e58fa]" started-at="2023-02-26T13:52:55 EST" name="LinkedlistPracticeQ" finished-at="2023-02-26T13:52:57 EST" duration-ms="2455" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LinkedlistPracticeQ -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:dsalgo.testcases.TestCase@6c6357f9]" started-at="2023-02-24T21:17:18 EST" name="teardown" finished-at="2023-02-24T21:17:18 EST" duration-ms="306" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:dsalgo.testcases.TestCase@591e58fa]" started-at="2023-02-26T13:52:57 EST" name="teardown" finished-at="2023-02-26T13:52:58 EST" duration-ms="388" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:dsalgo.testcases.TestCase@6c6357f9]" started-at="2023-02-24T21:17:18 EST" name="setup" finished-at="2023-02-24T21:17:20 EST" duration-ms="1886" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:dsalgo.testcases.TestCase@591e58fa]" started-at="2023-02-26T13:52:58 EST" name="setup" finished-at="2023-02-26T13:53:00 EST" duration-ms="2091" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="Queue()[pri:0, instance:dsalgo.testcases.TestCase@6c6357f9]" started-at="2023-02-24T21:17:20 EST" name="Queue" finished-at="2023-02-24T21:17:28 EST" duration-ms="7989" status="PASS">
+        <test-method signature="Queue()[pri:0, instance:dsalgo.testcases.TestCase@591e58fa]" started-at="2023-02-26T13:53:00 EST" name="Queue" finished-at="2023-02-26T13:53:07 EST" duration-ms="7747" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Queue is selected]]>
             </line>
           </reporter-output>
         </test-method> <!-- Queue -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:dsalgo.testcases.TestCase@6c6357f9]" started-at="2023-02-24T21:17:28 EST" name="teardown" finished-at="2023-02-24T21:17:28 EST" duration-ms="289" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:dsalgo.testcases.TestCase@591e58fa]" started-at="2023-02-26T13:53:07 EST" name="teardown" finished-at="2023-02-26T13:53:08 EST" duration-ms="483" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:dsalgo.testcases.TestCase@6c6357f9]" started-at="2023-02-24T21:17:28 EST" name="setup" finished-at="2023-02-24T21:17:30 EST" duration-ms="2088" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:dsalgo.testcases.TestCase@591e58fa]" started-at="2023-02-26T13:53:08 EST" name="setup" finished-at="2023-02-26T13:53:10 EST" duration-ms="2031" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="QueuePracticeQ()[pri:0, instance:dsalgo.testcases.TestCase@6c6357f9]" started-at="2023-02-24T21:17:30 EST" name="QueuePracticeQ" finished-at="2023-02-24T21:17:33 EST" duration-ms="2480" status="PASS">
+        <test-method signature="QueuePracticeQ()[pri:0, instance:dsalgo.testcases.TestCase@591e58fa]" started-at="2023-02-26T13:53:10 EST" name="QueuePracticeQ" finished-at="2023-02-26T13:53:12 EST" duration-ms="2482" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Queue is selected]]>
             </line>
           </reporter-output>
         </test-method> <!-- QueuePracticeQ -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:dsalgo.testcases.TestCase@6c6357f9]" started-at="2023-02-24T21:17:33 EST" name="teardown" finished-at="2023-02-24T21:17:33 EST" duration-ms="263" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:dsalgo.testcases.TestCase@591e58fa]" started-at="2023-02-26T13:53:12 EST" name="teardown" finished-at="2023-02-26T13:53:13 EST" duration-ms="342" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:dsalgo.testcases.TestCase@6c6357f9]" started-at="2023-02-24T21:17:33 EST" name="setup" finished-at="2023-02-24T21:17:35 EST" duration-ms="2105" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:dsalgo.testcases.TestCase@591e58fa]" started-at="2023-02-26T13:53:13 EST" name="setup" finished-at="2023-02-26T13:53:15 EST" duration-ms="2138" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="array()[pri:0, instance:dsalgo.testcases.TestCase@6c6357f9]" started-at="2023-02-24T21:17:35 EST" name="array" finished-at="2023-02-24T21:17:44 EST" duration-ms="8954" status="PASS">
+        <test-method signature="array()[pri:0, instance:dsalgo.testcases.TestCase@591e58fa]" started-at="2023-02-26T13:53:15 EST" name="array" finished-at="2023-02-26T13:53:24 EST" duration-ms="8724" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- array -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:dsalgo.testcases.TestCase@6c6357f9]" started-at="2023-02-24T21:17:44 EST" name="teardown" finished-at="2023-02-24T21:17:44 EST" duration-ms="301" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:dsalgo.testcases.TestCase@591e58fa]" started-at="2023-02-26T13:53:24 EST" name="teardown" finished-at="2023-02-26T13:53:24 EST" duration-ms="489" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:dsalgo.testcases.TestCase@6c6357f9]" started-at="2023-02-24T21:17:44 EST" name="setup" finished-at="2023-02-24T21:17:47 EST" duration-ms="2764" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:dsalgo.testcases.TestCase@591e58fa]" started-at="2023-02-26T13:53:24 EST" name="setup" finished-at="2023-02-26T13:53:27 EST" duration-ms="2312" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="datastructure()[pri:0, instance:dsalgo.testcases.TestCase@6c6357f9]" started-at="2023-02-24T21:17:47 EST" name="datastructure" finished-at="2023-02-24T21:17:51 EST" duration-ms="4051" status="PASS">
+        <test-method signature="datastructure()[pri:0, instance:dsalgo.testcases.TestCase@591e58fa]" started-at="2023-02-26T13:53:27 EST" name="datastructure" finished-at="2023-02-26T13:53:30 EST" duration-ms="3723" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- datastructure -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:dsalgo.testcases.TestCase@6c6357f9]" started-at="2023-02-24T21:17:51 EST" name="teardown" finished-at="2023-02-24T21:17:52 EST" duration-ms="289" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:dsalgo.testcases.TestCase@591e58fa]" started-at="2023-02-26T13:53:30 EST" name="teardown" finished-at="2023-02-26T13:53:31 EST" duration-ms="445" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:dsalgo.testcases.TestCase@6c6357f9]" started-at="2023-02-24T21:17:52 EST" name="setup" finished-at="2023-02-24T21:17:53 EST" duration-ms="1980" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:dsalgo.testcases.TestCase@591e58fa]" started-at="2023-02-26T13:53:31 EST" name="setup" finished-at="2023-02-26T13:53:33 EST" duration-ms="2286" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="datastructurePracticeQ()[pri:0, instance:dsalgo.testcases.TestCase@6c6357f9]" started-at="2023-02-24T21:17:53 EST" name="datastructurePracticeQ" finished-at="2023-02-24T21:17:56 EST" duration-ms="2542" status="PASS">
+        <test-method signature="datastructurePracticeQ()[pri:0, instance:dsalgo.testcases.TestCase@591e58fa]" started-at="2023-02-26T13:53:33 EST" name="datastructurePracticeQ" finished-at="2023-02-26T13:53:35 EST" duration-ms="2342" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- datastructurePracticeQ -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:dsalgo.testcases.TestCase@6c6357f9]" started-at="2023-02-24T21:17:56 EST" name="teardown" finished-at="2023-02-24T21:17:56 EST" duration-ms="280" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:dsalgo.testcases.TestCase@591e58fa]" started-at="2023-02-26T13:53:35 EST" name="teardown" finished-at="2023-02-26T13:53:36 EST" duration-ms="386" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:dsalgo.testcases.TestCase@6c6357f9]" started-at="2023-02-24T21:17:56 EST" name="setup" finished-at="2023-02-24T21:17:58 EST" duration-ms="1853" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:dsalgo.testcases.TestCase@591e58fa]" started-at="2023-02-26T13:53:36 EST" name="setup" finished-at="2023-02-26T13:53:38 EST" duration-ms="2540" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="graph()[pri:0, instance:dsalgo.testcases.TestCase@6c6357f9]" started-at="2023-02-24T21:17:58 EST" name="graph" finished-at="2023-02-24T21:18:02 EST" duration-ms="3970" status="PASS">
+        <test-method signature="graph()[pri:0, instance:dsalgo.testcases.TestCase@591e58fa]" started-at="2023-02-26T13:53:38 EST" name="graph" finished-at="2023-02-26T13:53:42 EST" duration-ms="3956" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- graph -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:dsalgo.testcases.TestCase@6c6357f9]" started-at="2023-02-24T21:18:02 EST" name="teardown" finished-at="2023-02-24T21:18:02 EST" duration-ms="300" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:dsalgo.testcases.TestCase@591e58fa]" started-at="2023-02-26T13:53:42 EST" name="teardown" finished-at="2023-02-26T13:53:43 EST" duration-ms="434" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:dsalgo.testcases.TestCase@6c6357f9]" started-at="2023-02-24T21:18:02 EST" name="setup" finished-at="2023-02-24T21:18:04 EST" duration-ms="1998" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:dsalgo.testcases.TestCase@591e58fa]" started-at="2023-02-26T13:53:43 EST" name="setup" finished-at="2023-02-26T13:53:45 EST" duration-ms="2240" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="graphPRacticeQ()[pri:0, instance:dsalgo.testcases.TestCase@6c6357f9]" started-at="2023-02-24T21:18:04 EST" name="graphPRacticeQ" finished-at="2023-02-24T21:18:07 EST" duration-ms="2585" status="PASS">
+        <test-method signature="graphPRacticeQ()[pri:0, instance:dsalgo.testcases.TestCase@591e58fa]" started-at="2023-02-26T13:53:45 EST" name="graphPRacticeQ" finished-at="2023-02-26T13:53:47 EST" duration-ms="2483" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- graphPRacticeQ -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:dsalgo.testcases.TestCase@6c6357f9]" started-at="2023-02-24T21:18:07 EST" name="teardown" finished-at="2023-02-24T21:18:07 EST" duration-ms="311" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:dsalgo.testcases.TestCase@591e58fa]" started-at="2023-02-26T13:53:47 EST" name="teardown" finished-at="2023-02-26T13:53:48 EST" duration-ms="438" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:dsalgo.testcases.TestCase@6c6357f9]" started-at="2023-02-24T21:18:07 EST" name="setup" finished-at="2023-02-24T21:18:09 EST" duration-ms="1808" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:dsalgo.testcases.TestCase@591e58fa]" started-at="2023-02-26T13:53:48 EST" name="setup" finished-at="2023-02-26T13:53:51 EST" duration-ms="3115" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="home()[pri:0, instance:dsalgo.testcases.TestCase@6c6357f9]" started-at="2023-02-24T21:18:09 EST" name="home" finished-at="2023-02-24T21:18:14 EST" duration-ms="5051" status="PASS">
+        <test-method signature="home()[pri:0, instance:dsalgo.testcases.TestCase@591e58fa]" started-at="2023-02-26T13:53:51 EST" name="home" finished-at="2023-02-26T13:53:51 EST" duration-ms="553" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- home -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:dsalgo.testcases.TestCase@6c6357f9]" started-at="2023-02-24T21:18:14 EST" name="teardown" finished-at="2023-02-24T21:18:15 EST" duration-ms="298" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:dsalgo.testcases.TestCase@591e58fa]" started-at="2023-02-26T13:53:51 EST" name="teardown" finished-at="2023-02-26T13:53:52 EST" duration-ms="431" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:dsalgo.testcases.TestCase@6c6357f9]" started-at="2023-02-24T21:18:15 EST" name="setup" finished-at="2023-02-24T21:18:16 EST" duration-ms="1832" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:dsalgo.testcases.TestCase@591e58fa]" started-at="2023-02-26T13:53:52 EST" name="setup" finished-at="2023-02-26T13:53:54 EST" duration-ms="2239" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="invalid()[pri:0, instance:dsalgo.testcases.TestCase@6c6357f9]" started-at="2023-02-24T21:18:16 EST" name="invalid" finished-at="2023-02-24T21:18:21 EST" duration-ms="4338" status="PASS">
+        <test-method signature="invalid()[pri:0, instance:dsalgo.testcases.TestCase@591e58fa]" started-at="2023-02-26T13:53:54 EST" name="invalid" finished-at="2023-02-26T13:53:59 EST" duration-ms="4377" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- invalid -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:dsalgo.testcases.TestCase@6c6357f9]" started-at="2023-02-24T21:18:21 EST" name="teardown" finished-at="2023-02-24T21:18:21 EST" duration-ms="316" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:dsalgo.testcases.TestCase@591e58fa]" started-at="2023-02-26T13:53:59 EST" name="teardown" finished-at="2023-02-26T13:53:59 EST" duration-ms="535" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:dsalgo.testcases.TestCase@6c6357f9]" started-at="2023-02-24T21:18:21 EST" name="setup" finished-at="2023-02-24T21:18:23 EST" duration-ms="2011" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:dsalgo.testcases.TestCase@591e58fa]" started-at="2023-02-26T13:53:59 EST" name="setup" finished-at="2023-02-26T13:54:03 EST" duration-ms="3726" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="selarray()[pri:0, instance:dsalgo.testcases.TestCase@6c6357f9]" started-at="2023-02-24T21:18:23 EST" name="selarray" finished-at="2023-02-24T21:18:32 EST" duration-ms="9444" status="PASS">
+        <test-method signature="selarray()[pri:0, instance:dsalgo.testcases.TestCase@591e58fa]" started-at="2023-02-26T13:54:03 EST" name="selarray" finished-at="2023-02-26T13:54:12 EST" duration-ms="8847" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- selarray -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:dsalgo.testcases.TestCase@6c6357f9]" started-at="2023-02-24T21:18:32 EST" name="teardown" finished-at="2023-02-24T21:18:33 EST" duration-ms="312" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:dsalgo.testcases.TestCase@591e58fa]" started-at="2023-02-26T13:54:12 EST" name="teardown" finished-at="2023-02-26T13:54:12 EST" duration-ms="432" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:dsalgo.testcases.TestCase@6c6357f9]" started-at="2023-02-24T21:18:33 EST" name="setup" finished-at="2023-02-24T21:18:35 EST" duration-ms="1932" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:dsalgo.testcases.TestCase@591e58fa]" started-at="2023-02-26T13:54:12 EST" name="setup" finished-at="2023-02-26T13:54:14 EST" duration-ms="2037" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="signout()[pri:0, instance:dsalgo.testcases.TestCase@6c6357f9]" started-at="2023-02-24T21:18:35 EST" name="signout" finished-at="2023-02-24T21:18:37 EST" duration-ms="2195" status="PASS">
+        <test-method signature="signout()[pri:0, instance:dsalgo.testcases.TestCase@591e58fa]" started-at="2023-02-26T13:54:14 EST" name="signout" finished-at="2023-02-26T13:54:16 EST" duration-ms="1976" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- signout -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:dsalgo.testcases.TestCase@6c6357f9]" started-at="2023-02-24T21:18:37 EST" name="teardown" finished-at="2023-02-24T21:18:37 EST" duration-ms="305" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:dsalgo.testcases.TestCase@591e58fa]" started-at="2023-02-26T13:54:16 EST" name="teardown" finished-at="2023-02-26T13:54:16 EST" duration-ms="368" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:dsalgo.testcases.TestCase@6c6357f9]" started-at="2023-02-24T21:18:37 EST" name="setup" finished-at="2023-02-24T21:18:39 EST" duration-ms="1879" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:dsalgo.testcases.TestCase@591e58fa]" started-at="2023-02-26T13:54:16 EST" name="setup" finished-at="2023-02-26T13:54:20 EST" duration-ms="3737" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="stack()[pri:0, instance:dsalgo.testcases.TestCase@6c6357f9]" started-at="2023-02-24T21:18:39 EST" name="stack" finished-at="2023-02-24T21:18:47 EST" duration-ms="8291" status="PASS">
+        <test-method signature="stack()[pri:0, instance:dsalgo.testcases.TestCase@591e58fa]" started-at="2023-02-26T13:54:20 EST" name="stack" finished-at="2023-02-26T13:54:27 EST" duration-ms="6533" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- stack -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:dsalgo.testcases.TestCase@6c6357f9]" started-at="2023-02-24T21:18:47 EST" name="teardown" finished-at="2023-02-24T21:18:48 EST" duration-ms="301" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:dsalgo.testcases.TestCase@591e58fa]" started-at="2023-02-26T13:54:27 EST" name="teardown" finished-at="2023-02-26T13:54:27 EST" duration-ms="443" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:dsalgo.testcases.TestCase@6c6357f9]" started-at="2023-02-24T21:18:48 EST" name="setup" finished-at="2023-02-24T21:18:51 EST" duration-ms="3642" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:dsalgo.testcases.TestCase@591e58fa]" started-at="2023-02-26T13:54:27 EST" name="setup" finished-at="2023-02-26T13:54:29 EST" duration-ms="2214" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="stackPracticeQ()[pri:0, instance:dsalgo.testcases.TestCase@6c6357f9]" started-at="2023-02-24T21:18:51 EST" name="stackPracticeQ" finished-at="2023-02-24T21:18:54 EST" duration-ms="2658" status="PASS">
+        <test-method signature="stackPracticeQ()[pri:0, instance:dsalgo.testcases.TestCase@591e58fa]" started-at="2023-02-26T13:54:29 EST" name="stackPracticeQ" finished-at="2023-02-26T13:54:32 EST" duration-ms="2479" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- stackPracticeQ -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:dsalgo.testcases.TestCase@6c6357f9]" started-at="2023-02-24T21:18:54 EST" name="teardown" finished-at="2023-02-24T21:18:54 EST" duration-ms="287" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:dsalgo.testcases.TestCase@591e58fa]" started-at="2023-02-26T13:54:32 EST" name="teardown" finished-at="2023-02-26T13:54:32 EST" duration-ms="374" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:dsalgo.testcases.TestCase@6c6357f9]" started-at="2023-02-24T21:18:54 EST" name="setup" finished-at="2023-02-24T21:18:58 EST" duration-ms="3748" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:dsalgo.testcases.TestCase@591e58fa]" started-at="2023-02-26T13:54:32 EST" name="setup" finished-at="2023-02-26T13:54:36 EST" duration-ms="3464" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="tree()[pri:0, instance:dsalgo.testcases.TestCase@6c6357f9]" started-at="2023-02-24T21:18:58 EST" name="tree" finished-at="2023-02-24T21:19:19 EST" duration-ms="20820" status="PASS">
+        <test-method signature="tree()[pri:0, instance:dsalgo.testcases.TestCase@591e58fa]" started-at="2023-02-26T13:54:36 EST" name="tree" finished-at="2023-02-26T13:54:59 EST" duration-ms="23629" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tree -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:dsalgo.testcases.TestCase@6c6357f9]" started-at="2023-02-24T21:19:19 EST" name="teardown" finished-at="2023-02-24T21:19:19 EST" duration-ms="370" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:dsalgo.testcases.TestCase@591e58fa]" started-at="2023-02-26T13:54:59 EST" name="teardown" finished-at="2023-02-26T13:55:00 EST" duration-ms="559" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:dsalgo.testcases.TestCase@6c6357f9]" started-at="2023-02-24T21:19:19 EST" name="setup" finished-at="2023-02-24T21:19:21 EST" duration-ms="1972" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:dsalgo.testcases.TestCase@591e58fa]" started-at="2023-02-26T13:55:00 EST" name="setup" finished-at="2023-02-26T13:55:02 EST" duration-ms="2347" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="treePracticeQ()[pri:0, instance:dsalgo.testcases.TestCase@6c6357f9]" started-at="2023-02-24T21:19:21 EST" name="treePracticeQ" finished-at="2023-02-24T21:19:24 EST" duration-ms="2425" status="PASS">
+        <test-method signature="treePracticeQ()[pri:0, instance:dsalgo.testcases.TestCase@591e58fa]" started-at="2023-02-26T13:55:02 EST" name="treePracticeQ" finished-at="2023-02-26T13:55:05 EST" duration-ms="2454" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- treePracticeQ -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:dsalgo.testcases.TestCase@6c6357f9]" started-at="2023-02-24T21:19:24 EST" name="teardown" finished-at="2023-02-24T21:19:24 EST" duration-ms="245" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:dsalgo.testcases.TestCase@591e58fa]" started-at="2023-02-26T13:55:05 EST" name="teardown" finished-at="2023-02-26T13:55:05 EST" duration-ms="430" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:dsalgo.testcases.TestCase@6c6357f9]" started-at="2023-02-24T21:19:24 EST" name="setup" finished-at="2023-02-24T21:19:28 EST" duration-ms="4478" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:dsalgo.testcases.TestCase@591e58fa]" started-at="2023-02-26T13:55:05 EST" name="setup" finished-at="2023-02-26T13:55:07 EST" duration-ms="2276" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="vaild()[pri:0, instance:dsalgo.testcases.TestCase@6c6357f9]" started-at="2023-02-24T21:19:28 EST" name="vaild" finished-at="2023-02-24T21:19:30 EST" duration-ms="1943" status="PASS">
+        <test-method signature="vaild()[pri:0, instance:dsalgo.testcases.TestCase@591e58fa]" started-at="2023-02-26T13:55:07 EST" name="vaild" finished-at="2023-02-26T13:55:09 EST" duration-ms="1863" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- vaild -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:dsalgo.testcases.TestCase@6c6357f9]" started-at="2023-02-24T21:19:30 EST" name="teardown" finished-at="2023-02-24T21:19:31 EST" duration-ms="277" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:dsalgo.testcases.TestCase@591e58fa]" started-at="2023-02-26T13:55:09 EST" name="teardown" finished-at="2023-02-26T13:55:10 EST" duration-ms="442" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:dsalgo.testcases.TestCase@6c6357f9]" started-at="2023-02-24T21:19:31 EST" name="setup" finished-at="2023-02-24T21:19:35 EST" duration-ms="4471" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:dsalgo.testcases.TestCase@591e58fa]" started-at="2023-02-26T13:55:10 EST" name="setup" finished-at="2023-02-26T13:55:12 EST" duration-ms="2106" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="validateLoginFromExcel()[pri:0, instance:dsalgo.testcases.TestCase@6c6357f9]" started-at="2023-02-24T21:19:35 EST" name="validateLoginFromExcel" finished-at="2023-02-24T21:19:37 EST" duration-ms="2363" status="PASS">
+        <test-method signature="validateLoginFromExcel()[pri:0, instance:dsalgo.testcases.TestCase@591e58fa]" started-at="2023-02-26T13:55:12 EST" name="validateLoginFromExcel" finished-at="2023-02-26T13:55:14 EST" duration-ms="2129" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateLoginFromExcel -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:dsalgo.testcases.TestCase@6c6357f9]" started-at="2023-02-24T21:19:37 EST" name="teardown" finished-at="2023-02-24T21:19:38 EST" duration-ms="268" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:dsalgo.testcases.TestCase@591e58fa]" started-at="2023-02-26T13:55:14 EST" name="teardown" finished-at="2023-02-26T13:55:14 EST" duration-ms="425" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:dsalgo.testcases.TestCase@6c6357f9]" started-at="2023-02-24T21:19:38 EST" name="setup" finished-at="2023-02-24T21:19:40 EST" duration-ms="1814" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:dsalgo.testcases.TestCase@591e58fa]" started-at="2023-02-26T13:55:14 EST" name="setup" finished-at="2023-02-26T13:55:17 EST" duration-ms="2250" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="validateRegister()[pri:0, instance:dsalgo.testcases.TestCase@6c6357f9]" started-at="2023-02-24T21:19:40 EST" name="validateRegister" finished-at="2023-02-24T21:19:44 EST" duration-ms="4388" status="PASS">
+        <test-method signature="validateRegister()[pri:0, instance:dsalgo.testcases.TestCase@591e58fa]" started-at="2023-02-26T13:55:17 EST" name="validateRegister" finished-at="2023-02-26T13:55:21 EST" duration-ms="4541" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateRegister -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:dsalgo.testcases.TestCase@6c6357f9]" started-at="2023-02-24T21:19:44 EST" name="teardown" finished-at="2023-02-24T21:19:44 EST" duration-ms="363" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:dsalgo.testcases.TestCase@591e58fa]" started-at="2023-02-26T13:55:21 EST" name="teardown" finished-at="2023-02-26T13:55:22 EST" duration-ms="563" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->

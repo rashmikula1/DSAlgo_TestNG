@@ -35,7 +35,7 @@ public class GetStarted extends BaseClass {
 	By selitem= By.xpath("//div[@class='dropdown-menu show']/a");
 
 
-    public void getstart()
+	public void getstart()
 	{
 		driver.findElement(gtStarted).click();
 
@@ -46,12 +46,11 @@ public class GetStarted extends BaseClass {
 		driver.findElement(dropdown).click();
 		driver.findElement(array).click();
 		String text=driver.findElement(alert).getText();
-		//takesScreenshot("alert");
-		
+
 		Screenshot.takesScreenshot("alert");
 
 
-		log.info("The error"+ text);
+		log.info("The error "+ text);
 
 
 	}
@@ -82,39 +81,40 @@ public class GetStarted extends BaseClass {
 	{
 		driver.findElement(register).click();;
 	}
-
+	/*
 	public void clickRegister() throws IOException, InterruptedException
 	{
 		driver.findElement(register).click();;
 		driver.findElement(register2).click();;
 		Thread.sleep(1000);
 		Screenshot.takesScreenshot("RegisterError");
-        driver.findElement(username).sendKeys("roseflower3456");
+        driver.findElement(username).sendKeys(prop.getProperty("RegUsername"));
 		driver.findElement(register2).click();;
 		Thread.sleep(1000);
 		Screenshot.takesScreenshot("RegisterError1");
-        driver.findElement(password).sendKeys("abcdef1234");
+        driver.findElement(password).sendKeys(prop.getProperty("RegPassword"));
 		driver.findElement(register2).click();;
 		Thread.sleep(1000);
 		Screenshot.takesScreenshot("RegisterError2");
-		driver.findElement(password1).sendKeys("abcdef346");
+		driver.findElement(password1).sendKeys(prop.getProperty("RegPassword1"));
 		driver.findElement(register2).click();;
 		log.error(driver.findElement(alert).getText());
 
 	}
 
 
-	public void register()
+	public void register() throws InterruptedException
 	{
-		driver.findElement(register);
-		driver.findElement(username).sendKeys("fghjkt56779811908");
-		driver.findElement(password).sendKeys("rtyui678889");
-		driver.findElement(password1).sendKeys("rtyui678889");
-		driver.findElement(register2);
+		driver.findElement(register).click();;
+		driver.findElement(username).sendKeys(prop.getProperty("RegUsername"));
+		driver.findElement(password).sendKeys(prop.getProperty("RegPassword"));
+		driver.findElement(password1).sendKeys(prop.getProperty("RegPassword"));
+
+		driver.findElement(register2).click();
 		log.info(driver.findElement(alert).getText());
 	}
-	
 
+	 */
 
 
 }

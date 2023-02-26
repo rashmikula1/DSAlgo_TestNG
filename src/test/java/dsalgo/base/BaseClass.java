@@ -26,7 +26,10 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 			try {
 				 prop = new Properties();
 				System.out.println("Super constructor invoked");
-				FileReader ip= new FileReader("C:\\Users\\rashm\\eclipse-workspace\\DSAlgo\\Configuration\\Config.properties");
+				String projectDir=System.getProperty("user.dir");
+				String path=projectDir+"/src/test/resources/Configuration/Config.properties";
+				FileReader ip= new FileReader(path);
+				//FileReader ip= new FileReader("C:\\Users\\rashm\\eclipse-workspace\\DSAlgo\\Configuration\\Config.properties");
 				prop.load(ip);
 				System.out.println("driver: "+driver);
 				
@@ -58,6 +61,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 			driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
 			//driver.manage().timeouts().pageLoadTimeout(10, null);
 			driver.get(prop.getProperty("url"));
+			driver.manage().window().maximize();
 		}
 		
 	}

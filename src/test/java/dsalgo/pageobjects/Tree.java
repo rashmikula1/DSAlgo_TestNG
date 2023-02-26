@@ -38,7 +38,7 @@ public class Tree extends BaseClass {
 	{
 		driver.findElement(Tryhere).click();
 
-		System.out.println(code);
+		//System.out.println(code);
 
 		driver.findElement(Input).sendKeys(code[i]);
 		driver.findElement(Run).click();
