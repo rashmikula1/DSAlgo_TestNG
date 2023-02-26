@@ -1,1 +1,0 @@
-{"uuid":"49bad5c0-b167-44cf-b602-ff412271659f","name":"dsalgo.testcases.TestCase.setup","children":["9ecbcc00-d0b1-4485-8710-ede27b492d4a"],"description":"","befores":[{"name":"setup","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1677187231395,"stop":1677187236325}],"afters":[],"start":1677187231395,"stop":1677187236326}
