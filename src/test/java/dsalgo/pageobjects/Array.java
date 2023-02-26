@@ -30,6 +30,7 @@ public class Array extends BaseClass{
 	By findno=By.xpath("//a[text()='Find Numbers with Even Number of Digits']");
 	By square=By.xpath("//a[text()='Squares of  a Sorted Array']");
 	By Topics=By.xpath("//body/div/ul/a[@class='list-group-item']");
+	
 	public void Arraysel()
 	{
 		driver.findElement(dropdown).click();;
@@ -71,13 +72,10 @@ public class Array extends BaseClass{
 			By Topic= By.xpath("//body/div/ul[" + j + "]/a[@class='list-group-item']");
 			driver.findElement(Topic).click();
 
-			//System.out.println("Topic is: "+ Topic);
-
+		
 			for(int i=0;i<l;i++)
 			{
 				driver.findElement(tryhere).click();
-
-				//System.out.println(code);
 
 				driver.findElement(input).sendKeys(code[i]);
 				driver.findElement(run).click();
