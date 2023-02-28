@@ -55,9 +55,10 @@ public class TestCase extends BaseClass {
 		driver.quit();
 	}
 
-	@Test
+	@Test(priority=1)
 	public void selarray() throws InterruptedException, IOException
 	{
+		Home hm= new Home();
 		hm.selectarray();
 		hm.clickdatastructure();
 		hm.selctany();
@@ -67,7 +68,7 @@ public class TestCase extends BaseClass {
 
 	}
 
-	@Test
+	@Test(priority=2)
 	public void home() throws InterruptedException
 	{
 
@@ -83,13 +84,13 @@ public class TestCase extends BaseClass {
 		}
 
 	}
-	@Test
+	@Test(priority=3)
 	public void vaild() throws InterruptedException
 	{
 		sign.signValid();
 
 	}
-	@Test
+	@Test(priority=4)
 	public void invalid() throws InterruptedException, IOException
 
 	{ 
@@ -98,27 +99,27 @@ public class TestCase extends BaseClass {
 		sign.verifylogin();
 
 	}
-	@Test
+	@Test(priority=5)
 	public void signout() throws InterruptedException
 	{
 
 		sign.signout();
 	}
 
-	@Test
+	@Test(priority=6)
 	public void validateRegister() throws IOException, InterruptedException
 	{
 		rj.clickRegister();
 	}
 
-	@Test
+	@Test(priority=7)
 	public void validateLoginFromExcel() throws IOException, InterruptedException
 	{
 
 		sign.signInputFromExcel();
 	}
 
-	@Test
+	@Test(priority=8)
 	public void datastructure() throws Exception
 	{
 
@@ -127,14 +128,14 @@ public class TestCase extends BaseClass {
 		dr.datastructureperform();
 	}
 	
-	@Test
+	@Test(priority=9)
 	public void datastructurePracticeQ() throws InterruptedException
 	{
 		sign.signValid();
 		dr.PracticeQ();
 	}
 
-	@Test
+	@Test(priority=10)
 	public void array() throws Exception
 	{
 
@@ -148,7 +149,7 @@ public class TestCase extends BaseClass {
 	}
 
 
-	@Test
+	@Test(priority=11)
 	public void ArrayPracticeQ() throws InterruptedException, IOException
 	{
 		
@@ -157,7 +158,7 @@ public class TestCase extends BaseClass {
      	ar.practiceQSearchArray();
 
 	}
-	@Test
+	@Test(priority=12)
 	public void ArrayMaxConsPracticeQ() throws InterruptedException, IOException
 	{
 
@@ -168,7 +169,7 @@ public class TestCase extends BaseClass {
 		ar.practiceQMaxCons();
 
 	}
-	@Test
+	@Test(priority=13)
 	public void ArrayfindnoPracticeq() throws InterruptedException, IOException
 	{
 
@@ -179,7 +180,7 @@ public class TestCase extends BaseClass {
 		ar.findnum();
 
 	}
-	@Test
+	@Test(priority=14)
 	public void ArraysquarePracticeQ() throws InterruptedException, IOException
 	{
 
@@ -193,7 +194,7 @@ public class TestCase extends BaseClass {
 
 
 
-	@Test
+	@Test(priority=15)
 	public void Queue() throws Exception
 	{
 		
@@ -203,7 +204,7 @@ public class TestCase extends BaseClass {
 		qu.performQueue();
 
 	}
-	@Test
+	@Test(priority=16)
 	public void QueuePracticeQ() throws InterruptedException
 	{
 		
@@ -214,7 +215,7 @@ public class TestCase extends BaseClass {
 	}
 
 
-	@Test
+	@Test(priority=17)
 	public void Linkedlist() throws InterruptedException, IOException
 	{
 
@@ -225,14 +226,14 @@ public class TestCase extends BaseClass {
 
 	}
 	
-	@Test
+	@Test(priority=18)
 	public void LinkedlistPracticeQ() throws InterruptedException
 	{
 		sign.signValid();
 		ll.PracticeQ();
 	}
 	
-	@Test
+	@Test(priority=19)
 	public void stack() throws InterruptedException, IOException
 	{
 
@@ -244,7 +245,7 @@ public class TestCase extends BaseClass {
 
 
 	}
-	@Test
+	@Test(priority=20)
 	public void stackPracticeQ() throws InterruptedException
 	{
 		sign.signValid();
@@ -252,7 +253,7 @@ public class TestCase extends BaseClass {
 		
 	}
 
-	@Test
+	@Test(priority=21)
 	public void tree() throws InterruptedException, IOException
 	{
 
@@ -261,20 +262,20 @@ public class TestCase extends BaseClass {
 		tr.AccessTree();
 
 	}
-	@Test
+	@Test(priority=22)
 	public void treePracticeQ() throws InterruptedException
 	{
 		sign.signValid();
 		tr.PracticeQ();
 	}
-	@Test
+	@Test(priority=23)
 	public void graph() throws InterruptedException, IOException
 	{
 		sign.signValid();
 		gr.AccessGraph();
 	}
 	
-	@Test
+	@Test(priority=24)
 	public void graphPRacticeQ() throws InterruptedException
 	{
 		sign.signValid();
